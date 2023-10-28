@@ -1,0 +1,90 @@
+Setting work up in Triton
+-------------------------
+
+SSH:
+----
+https://scicomp.aalto.fi/triton/tut/connecting/
+
+Since September 2023, the easiest way to connect is to use the Aalto
+VPN first (if not using Eduroam or an Aalto laptop from the aalto
+network), and then SSH to Triton.  (SSH without VPN is possible but we
+don't support it):
+
+Connecting: ssh (X-tunneling might not work outside Aalto)
+ssh -Y triton.aalto.fi -l <username>
+
+MODULE SYSTEM:
+--------------
+
+module list
+module avail | grep mpi
+module spider mpi
+module load
+module unload
+module purge
+
+Settings for the course:
+
+MPI & Hybrid
+module load gcc/8.4.0
+module load openmpi/3.1.4
+
+CUDA
+module load gcc cuda cmake openmpi
+
+C: MPI-compiler wrapper is mpicc
+CUDA: nvcc
+      Invoking mpi: -lmpi
+
+GitLab:
+-------
+
+version.aalto.fi: pps-example-codes
+Recommended: set up SSH keys
+git clone <copy repo link> repo-dir-name
+
+Disks:
+------
+quota
+$HOME 
+$WRKDIR
+"Submitting" exercise codes to (TBC later)
+/scratch/cs-4690-2022/<username>
+
+SLURM:
+------
+To run jobs:
+sbatch job_script.sh
+
+squeue -u <username>
+sinfo -p courses
+History of your jobs:
+slurm h 
+
+Users who already had Triton accounts may also submit the jobs to
+"normal" queues, when they may queue for less time (or maybe more,
+depending on the cluster load). To try this, comment out the
+#SBATCH -p courses
+#SBATCH -A courses
+(Commenting out means using two `##`.  `#SBATCH` is the normal version)
+
+
+-> pe[66-73] and gpu24+gpu26 reserved for the course. Check out specs from
+Triton manual.
+
+Running parallel programs:
+srun + args; args parsed from #SBATCH <options> <value>
+
+sacct -j <jobid> will tell you detailes about your job's execution.
+
+scripts-dir: Example scripts for running MPI, MPI + openMP & CUDA + MPI jobs.
+
+
+
+See also
+--------
+
+About Triton:
+https://scicomp.aalto.fi/triton/ref/
+https://scicomp.aalto.fi/scicomp/shell/
+https://aaltoscicomp.github.io/cheatsheets/triton-cheatsheet.pdf
