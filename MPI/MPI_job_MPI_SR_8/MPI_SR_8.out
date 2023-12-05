@@ -1,0 +1,8 @@
+Rank 0 issuing ireceive for a message from 1...... rank 0 returned from ireceive ...Rank 0 Initiating send to rank 1 ...... rank 0 returned from send ... ... rank 0 completed waiting of send request!
+ ...rank 0 completed the waiting of ireceive: received this -90 from  1
+Rank 1 issuing ireceive for a message from 0...... rank 1 returned from ireceive ...Rank 1 Initiating send to rank 0 ...... rank 1 returned from send ... ... rank 1 completed waiting of send request!
+ ...rank 1 completed the waiting of ireceive: received this -100 from  0
+
+real	0m0.583s
+user	0m0.016s
+sys	0m0.006s

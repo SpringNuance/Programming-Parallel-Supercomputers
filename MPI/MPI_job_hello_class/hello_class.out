@@ -1,0 +1,12 @@
+Hello class from processor pe66.int.triton.aalto.fi, rank 1 out of 4 processes
+Time taken by the process 1.890585e-05
+Hello class from processor pe66.int.triton.aalto.fi, rank 2 out of 4 processes
+Time taken by the process 2.025813e-05
+Hello class from processor pe66.int.triton.aalto.fi, rank 0 out of 4 processes
+Time taken by the process 1.962669e-05
+Hello class from processor pe66.int.triton.aalto.fi, rank 3 out of 4 processes
+Time taken by the process 1.951214e-05
+
+real	0m2.078s
+user	0m0.015s
+sys	0m0.008s

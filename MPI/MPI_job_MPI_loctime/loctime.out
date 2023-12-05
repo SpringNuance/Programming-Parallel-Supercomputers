@@ -1,0 +1,10 @@
+srun: launch/slurm: launch_p_step_launch: StepId=25641603.0 aborted before step completely launched.
+srun: error: task 1 launch failed: Unspecified error
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 25641603.0 ON pe66 CANCELLED AT 2023-12-05T14:53:22 ***
+srun: error: pe66: task 0: Killed
+srun: launch/slurm: _step_signal: Terminating StepId=25641603.0
+
+real	0m0.465s
+user	0m0.014s
+sys	0m0.010s

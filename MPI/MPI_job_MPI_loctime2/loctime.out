@@ -1,0 +1,12 @@
+Rank 1 measured time elapsed in comms:  6.43958e-04
+Rank 1 has time 3.202474383480e+03
+Does key value MPI_WTIME_IS_GLOBAL exist (1 for yes)?: 1
+Is it set (1 for yes)?: 0
+Wtime resolution is  1.00000e-09 seconds
+Wtime overhead is roughtly  7.18000e-07 seconds
+Rank 0 measured time elapsed in comms:  5.96703e-04
+Rank 0 has time 3.202474362636e+03
+
+real	0m0.842s
+user	0m0.015s
+sys	0m0.007s

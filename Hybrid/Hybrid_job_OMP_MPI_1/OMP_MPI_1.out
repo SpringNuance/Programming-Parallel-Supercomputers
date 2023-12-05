@@ -1,0 +1,20 @@
+Hi, this is rank 0, thread 0! I received from thread 0
+Hi, this is rank 0, thread 1! I received from thread 0
+Hi, this is rank 0, thread 2! I received from thread 0
+Hi, this is rank 0, thread 3! I received from thread 0
+Hi, this is rank 1, thread 0! I received from thread 0
+Hi, this is rank 1, thread 2! I received from thread 2
+Hi, this is rank 1, thread 1! I received from thread 1
+Hi, this is rank 1, thread 3! I received from thread 3
+Hi, this is rank 2, thread 0! I received from thread 0
+Hi, this is rank 2, thread 1! I received from thread 1
+Hi, this is rank 2, thread 3! I received from thread 3
+Hi, this is rank 2, thread 2! I received from thread 2
+Hi, this is rank 3, thread 3! I received from thread 3
+Hi, this is rank 3, thread 0! I received from thread 0
+Hi, this is rank 3, thread 1! I received from thread 1
+Hi, this is rank 3, thread 2! I received from thread 2
+
+real	0m1.974s
+user	0m0.016s
+sys	0m0.006s

@@ -22,14 +22,14 @@ int main(int argc, char** argv) {
   sendbuf[5]=10*my_id-100;
 
   /* First post a receive */
-  printf("Rank %d issuing ireceive for a message from %d...",my_id,your_id);  
-  MPI_Irecv(&recvbuf,bufsize,MPI_INT,your_id,0,MPI_COMM_WORLD,&rrequest);
-  printf("... rank %d returned from ireceive ...",my_id);  
+  printf("Rank %d issuing ireceive for a message from %d...\n",my_id,your_id);  
+  MPI_Irecv(recvbuf,bufsize,MPI_INT,your_id,0,MPI_COMM_WORLD,&rrequest);
+  printf("... rank %d returned from ireceive ...\n",my_id);  
 
-  printf("Rank %d Initiating send to rank %d ...",my_id,your_id);
+  printf("Rank %d Initiating send to rank %d ...\n",my_id,your_id);
   /* Then post a send...*/
-  MPI_Isend(&sendbuf,bufsize,MPI_INT,your_id,0,MPI_COMM_WORLD,&srequest); 
-  printf("... rank %d returned from send ... ",my_id);
+  MPI_Isend(sendbuf,bufsize,MPI_INT,your_id,0,MPI_COMM_WORLD,&srequest); 
+  printf("... rank %d returned from send ... \n",my_id);
   MPI_Wait(&srequest,MPI_STATUS_IGNORE);
   printf("... rank %d completed waiting of send request!\n ",my_id);
 

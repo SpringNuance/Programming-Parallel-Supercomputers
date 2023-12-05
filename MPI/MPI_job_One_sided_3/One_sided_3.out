@@ -1,0 +1,7 @@
+Rank 1 has data 10
+Rank 1 has data 100
+Rank 0 has new data to send: 100
+
+real	0m0.966s
+user	0m0.015s
+sys	0m0.008s

@@ -1,0 +1,20 @@
+Rank 0 here putting 0 to rank 1
+I'm rank 0 and my neighbor 7 puts data 7 to my window
+Rank 6 here putting 6 to rank 7
+I'm rank 6 and my neighbor 5 puts data 5 to my window
+Last rank, 7, here putting 7 to rank 0
+I'm rank 7 and my neighbor 6 puts data 6 to my window
+Rank 5 here putting 5 to rank 6
+I'm rank 5 and my neighbor 4 puts data 4 to my window
+Rank 4 here putting 4 to rank 5
+I'm rank 4 and my neighbor 3 puts data 3 to my window
+Rank 3 here putting 3 to rank 4
+I'm rank 3 and my neighbor 2 puts data 2 to my window
+Rank 1 here putting 1 to rank 2
+I'm rank 1 and my neighbor 0 puts data 0 to my window
+Rank 2 here putting 2 to rank 3
+I'm rank 2 and my neighbor 1 puts data 1 to my window
+
+real	0m1.286s
+user	0m0.016s
+sys	0m0.009s

@@ -1,0 +1,24 @@
+Hi, this is rank 0, thread 1! I made some silly computations and got 1
+Hi, this is rank 0, thread 3! I made some silly computations and got 1
+Hi, this is rank 0, thread 2! I made some silly computations and got 1
+Hi, this is rank 0, thread 0! I sent to rank 1 and received from rank -1
+Hi, this is rank 0, thread 0! I made some silly computations and got 2209
+Hi, this is rank 3, thread 2! I made some silly computations and got 1
+Hi, this is rank 3, thread 1! I made some silly computations and got 1
+Hi, this is rank 3, thread 3! I made some silly computations and got 1
+Hi, this is rank 3, thread 0! I sent to rank 4 and received from rank 2
+Hi, this is rank 3, thread 0! I made some silly computations and got 2209
+Hi, this is rank 1, thread 1! I made some silly computations and got 1
+Hi, this is rank 1, thread 3! I made some silly computations and got 1
+Hi, this is rank 1, thread 2! I made some silly computations and got 1
+Hi, this is rank 1, thread 0! I sent to rank 2 and received from rank 0
+Hi, this is rank 1, thread 0! I made some silly computations and got 2209
+Hi, this is rank 2, thread 1! I made some silly computations and got 1
+Hi, this is rank 2, thread 3! I made some silly computations and got 1
+Hi, this is rank 2, thread 2! I made some silly computations and got 1
+Hi, this is rank 2, thread 0! I sent to rank 3 and received from rank 1
+Hi, this is rank 2, thread 0! I made some silly computations and got 2209
+
+real	0m0.936s
+user	0m0.015s
+sys	0m0.007s

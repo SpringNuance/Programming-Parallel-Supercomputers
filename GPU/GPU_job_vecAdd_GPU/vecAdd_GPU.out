@@ -1,0 +1,9 @@
+Num devices: 1
+Computed vector sum of two 1000-vectors
+Then I reverted indices in the vector...
+ just for fun, checking first and last
+  172.000000 94.000000 94.000000 172.000000
+
+real	0m0.407s
+user	0m0.015s
+sys	0m0.006s

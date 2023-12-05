@@ -1,9 +1,20 @@
 Setting work up in Triton
 -------------------------
 
-SSH:
-----
-https://scicomp.aalto.fi/triton/tut/connecting/
+Requesting account
+------------------
+
+Even if you already have a Triton account, you should activate your
+account for this course.   Instructions are given by the course staff,
+after you meet the basic requirements.  Don't use the general "Triton
+account request" thing.
+
+
+
+Connecting via SSH
+------------------
+
+Main page about connecting: https://scicomp.aalto.fi/triton/tut/connecting/
 
 Since September 2023, the easiest way to connect is to use the Aalto
 VPN first (if not using Eduroam or an Aalto laptop from the aalto
@@ -13,15 +24,24 @@ don't support it):
 Connecting: ssh (X-tunneling might not work outside Aalto)
 ssh -Y triton.aalto.fi -l <username>
 
+
+
 MODULE SYSTEM:
 --------------
 
+Modules allow you to make various sets of software available.
+Figuring out what works may take some time, so follow the examples
+given in each exercise.  More info:
+https://scicomp.aalto.fi/triton/tut/modules/
+
+Basic commands:
 module list
 module avail | grep mpi
 module spider mpi
 module load
 module unload
 module purge
+
 
 Settings for the course:
 
@@ -36,20 +56,37 @@ C: MPI-compiler wrapper is mpicc
 CUDA: nvcc
       Invoking mpi: -lmpi
 
+
+
 GitLab:
 -------
 
-version.aalto.fi: pps-example-codes
-Recommended: set up SSH keys
+https://version.aalto.fi/gitlab/manterm1/pps-example-codes
 git clone <copy repo link> repo-dir-name
+
+Recommended: set up SSH keys and use the SSH url.
+
+You can clone with HTTPS if you use username of USERNAME@aalto.fi
+(that @aalto.fi is important) and the Aalto password.
+
+From inside the directory, a "git pull" will update all files with the
+latest versions.  If you have modified any of the files that are
+updated, you will get a conflict.  We recommend to avoid modifying any
+non-assignment files (or assignment files before they are assigned) to
+prevent this, but conflicts can be resolved:
+  https://coderefinery.github.io/git-intro/conflicts/
+
+
 
 Disks:
 ------
 quota
-$HOME 
+$HOME
 $WRKDIR
 "Submitting" exercise codes to (TBC later)
-/scratch/cs-4690-2022/<username>
+/scratch/courses/programming_parallel_supercomputers_2023/<username>
+
+
 
 SLURM:
 ------
@@ -59,7 +96,7 @@ sbatch job_script.sh
 squeue -u <username>
 sinfo -p courses
 History of your jobs:
-slurm h 
+slurm history
 
 Users who already had Triton accounts may also submit the jobs to
 "normal" queues, when they may queue for less time (or maybe more,
@@ -86,5 +123,6 @@ See also
 
 About Triton:
 https://scicomp.aalto.fi/triton/ref/
+https://scicomp.aalto.fi/triton/#tutorials
 https://scicomp.aalto.fi/scicomp/shell/
 https://aaltoscicomp.github.io/cheatsheets/triton-cheatsheet.pdf

@@ -6,7 +6,7 @@ int main(int argc, char** argv) {
   // Blocking send and receive: processes send to next higher rank
   // and receive from the next lower rank. 
 
-  int my_id, next_id, prev_id, comm_size, bufsize=5000;
+  int my_id, next_id, prev_id, comm_size, bufsize=500000;
   int sendbuf[bufsize],recvbuf[bufsize];
   double start,end;
   MPI_Status status;

@@ -1,0 +1,10 @@
+srun: launch/slurm: launch_p_step_launch: StepId=25641765.0 aborted before step completely launched.
+srun: error: task 0 launch failed: Unspecified error
+srun: error: task 1 launch failed: Unspecified error
+srun: error: task 2 launch failed: Unspecified error
+srun: error: task 3 launch failed: Unspecified error
+srun: Job step aborted
+
+real	0m0.076s
+user	0m0.012s
+sys	0m0.011s

@@ -9,6 +9,7 @@ int main(int argc, char** argv) {
   int my_id, your_id, bufsize=1;
   int sendbuf[bufsize],recvbuf[bufsize];
   MPI_Status status;
+  MPI_Request request;
 
   /* Initialize the MPI execution environment */
   MPI_Init(&argc,&argv);
@@ -21,14 +22,16 @@ int main(int argc, char** argv) {
 
   /* Receive */
   printf("Waiting to receive from rank %d\n",your_id);  
-  MPI_Recv(&recvbuf,bufsize,MPI_INT,your_id,0,MPI_COMM_WORLD,&status);
+  MPI_Irecv(&recvbuf,bufsize,MPI_INT,your_id,0,MPI_COMM_WORLD,&request);
 
   printf("Receive finished from %d\n",your_id);
 
   printf("Initiating send to rank %d\n",your_id);
   /* Send...*/
-  MPI_Send(&sendbuf,bufsize,MPI_INT,your_id,0,MPI_COMM_WORLD);
+  //MPI_Send(&sendbuf,bufsize,MPI_INT,your_id,0,MPI_COMM_WORLD);
+  MPI_Rsend(&sendbuf,bufsize,MPI_INT,your_id,0,MPI_COMM_WORLD);
 
+  MPI_Wait(&request,MPI_STATUS_IGNORE);
   printf("Send finished to %d\n",your_id);
 
   /* Finalize the MPI environment. */

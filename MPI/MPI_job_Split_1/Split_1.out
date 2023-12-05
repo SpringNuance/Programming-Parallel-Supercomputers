@@ -1,0 +1,12 @@
+I am global rank 4, local rank 2, with proc_c 0 and I have the data value 0.000000
+I am global rank 7, local rank 3, with proc_c 1 and I have the data value 10.000000
+I am global rank 0, local rank 0, with proc_c 0 and I have the data value 0.000000
+I am global rank 3, local rank 1, with proc_c 1 and I have the data value 10.000000
+I am global rank 6, local rank 3, with proc_c 0 and I have the data value 0.000000
+I am global rank 2, local rank 1, with proc_c 0 and I have the data value 0.000000
+I am global rank 5, local rank 2, with proc_c 1 and I have the data value 10.000000
+I am global rank 1, local rank 0, with proc_c 1 and I have the data value 10.000000
+
+real	0m1.495s
+user	0m0.012s
+sys	0m0.011s

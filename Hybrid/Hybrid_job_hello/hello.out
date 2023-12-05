@@ -1,0 +1,25 @@
+Hello class from node pe67.int.triton.aalto.fi, rank 2 out of 4 MPI processes
+Hello class from OMP thread 1.
+Hello class from OMP thread 0.
+Hello class from OMP thread 2.
+Hello class from OMP thread 3.
+Provided support: 3
+Hello class from node pe66.int.triton.aalto.fi, rank 0 out of 4 MPI processes
+Hello class from OMP thread 0.
+Hello class from OMP thread 1.
+Hello class from OMP thread 3.
+Hello class from OMP thread 2.
+Hello class from node pe67.int.triton.aalto.fi, rank 3 out of 4 MPI processes
+Hello class from OMP thread 0.
+Hello class from OMP thread 3.
+Hello class from OMP thread 1.
+Hello class from OMP thread 2.
+Hello class from node pe66.int.triton.aalto.fi, rank 1 out of 4 MPI processes
+Hello class from OMP thread 2.
+Hello class from OMP thread 0.
+Hello class from OMP thread 1.
+Hello class from OMP thread 3.
+
+real	0m0.855s
+user	0m0.017s
+sys	0m0.007s

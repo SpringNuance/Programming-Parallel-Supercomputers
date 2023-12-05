@@ -1,0 +1,10 @@
+Rank 0: buffered send completed. Time: 4.413910e-05
+Rank 0: normal send. Time: 4.032627e-06
+Rank 1: Received 15 char(s) from Rank 0 with tag 1 
+message: Testing testing 
+Rank 1: Received 15 char(s) from Rank 0 with tag 2 
+message: Testing testing 
+
+real	0m0.579s
+user	0m0.017s
+sys	0m0.004s

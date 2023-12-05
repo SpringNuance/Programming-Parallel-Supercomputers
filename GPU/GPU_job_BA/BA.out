@@ -1,0 +1,6 @@
+Time for blocking transfers and computation (ms): 2.774400
+Time for transfer and execution on 4 streams (ms): 2.007840
+
+real	0m0.482s
+user	0m0.018s
+sys	0m0.005s

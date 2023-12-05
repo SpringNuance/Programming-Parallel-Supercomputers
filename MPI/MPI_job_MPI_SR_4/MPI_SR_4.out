@@ -1,0 +1,18 @@
+Hello class from processor pe66.int.triton.aalto.fi, rank 1 out of 8 processes
+Time elapsed 2.031941e-04 for 1
+Hello class from processor pe66.int.triton.aalto.fi, rank 5 out of 8 processes
+Time elapsed 1.039095e-04 for 5
+Hello class from processor pe66.int.triton.aalto.fi, rank 6 out of 8 processes
+Time elapsed 1.019780e-04 for 6
+Hello class from processor pe66.int.triton.aalto.fi, rank 7 out of 8 processes
+Hello class from processor pe66.int.triton.aalto.fi, rank 2 out of 8 processes
+Time elapsed 9.436719e-05 for 2
+Hello class from processor pe66.int.triton.aalto.fi, rank 0 out of 8 processes
+Hello class from processor pe66.int.triton.aalto.fi, rank 4 out of 8 processes
+Time elapsed 1.109978e-04 for 4
+Hello class from processor pe66.int.triton.aalto.fi, rank 3 out of 8 processes
+Time elapsed 1.141438e-04 for 3
+
+real	0m1.223s
+user	0m0.015s
+sys	0m0.007s

@@ -1,0 +1,59 @@
+Old 7 New 3 Left neighbor's value =8.000000
+Old 8, New 0 Right neighbor's value=10.000000
+Old 4, New 0 Right neighbor's value=6.000000
+Old 9 New 1 Left neighbor's value =8.000000
+Old 9, New 1 Right neighbor's value=12.000000
+Old 6 New 2 Left neighbor's value =6.000000
+Old 6, New 2 Right neighbor's value=10.000000
+Old 10 New 2 Left neighbor's value =10.000000
+Old 10, New 2 Right neighbor's value=14.000000
+Old 11 New 3 Left neighbor's value =12.000000
+Old 5 New 1 Left neighbor's value =4.000000
+Old 5, New 1 Right neighbor's value=8.000000
+Old 1 New 1 Left neighbor's value =0.000000
+Old 1, New 1 Right neighbor's value=4.000000
+[pe68:14302:0:14302] rc_verbs_iface.c:65   send completion with error: transport retry counter exceeded qpn 0x56514 wrid 0x1 vendor_err 0x81
+==== backtrace (tid:  14302) ====
+ 0 0x000000000004d455 ucs_debug_print_backtrace()  ???:0
+ 1 0x0000000000024df8 uct_rc_iface_verbs_cleanup_rx()  ???:0
+ 2 0x0000000000025a30 uct_rc_verbs_iface_post_recv_always()  ???:0
+ 3 0x000000000002158a ucp_worker_progress()  ???:0
+ 4 0x00000000001b3187 mca_pml_ucx_progress()  /build/spack/build/spack/var/spack/stage/buildbot/spack-stage-openmpi-3.1.4-bo27glkhkiflijjbkcfrtlaqsmb7bm3u/spack-src/ompi/mca/pml/ucx/pml_ucx.c:466
+ 5 0x00000000000353eb opal_progress()  /build/spack/build/spack/var/spack/stage/buildbot/spack-stage-openmpi-3.1.4-bo27glkhkiflijjbkcfrtlaqsmb7bm3u/spack-src/opal/runtime/opal_progress.c:228
+ 6 0x00000000001b31e5 mca_pml_ucx_waitall()  /build/spack/build/spack/var/spack/stage/buildbot/spack-stage-openmpi-3.1.4-bo27glkhkiflijjbkcfrtlaqsmb7bm3u/spack-src/ompi/mca/pml/ucx/pml_ucx.c:376
+ 7 0x00000000001b3391 mca_pml_ucx_del_procs()  /build/spack/build/spack/var/spack/stage/buildbot/spack-stage-openmpi-3.1.4-bo27glkhkiflijjbkcfrtlaqsmb7bm3u/spack-src/ompi/mca/pml/ucx/pml_ucx.c:438
+ 8 0x0000000000074be7 ompi_mpi_finalize()  /build/spack/build/spack/var/spack/stage/buildbot/spack-stage-openmpi-3.1.4-bo27glkhkiflijjbkcfrtlaqsmb7bm3u/spack-src/ompi/runtime/ompi_mpi_finalize.c:335
+ 9 0x0000000000400c55 main()  ???:0
+10 0x0000000000022555 __libc_start_main()  ???:0
+11 0x0000000000400a49 _start()  ???:0
+=================================
+[pe68:14302] *** Process received signal ***
+[pe68:14302] Signal: Aborted (6)
+[pe68:14302] Signal code:  (-6)
+[pe68:14302] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x2b3ebfb8e630]
+[pe68:14302] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x2b3ebfdd1387]
+[pe68:14302] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x2b3ebfdd2a78]
+[pe68:14302] [ 3] /usr/lib64/libucs.so.0(ucs_fatal_error_message+0x55)[0x2b3ec084fe85]
+[pe68:14302] [ 4] /usr/lib64/libucs.so.0(ucs_log_default_handler+0x2b9)[0x2b3ec0854429]
+[pe68:14302] [ 5] /usr/lib64/libucs.so.0(ucs_log_dispatch+0xd4)[0x2b3ec0854584]
+[pe68:14302] [ 6] /usr/lib64/ucx/libuct_ib.so.0(+0x24df8)[0x2b3ec5999df8]
+[pe68:14302] [ 7] /usr/lib64/ucx/libuct_ib.so.0(+0x25a30)[0x2b3ec599aa30]
+[pe68:14302] [ 8] /usr/lib64/libucp.so.0(ucp_worker_progress+0x5a)[0x2b3ec018a58a]
+[pe68:14302] [ 9] /share/apps/spack/envs/fgci-centos7-haswell/software/openmpi/3.1.4/bo27glk/lib/libmpi.so.40(mca_pml_ucx_progress+0x17)[0x2b3ebf8a3187]
+[pe68:14302] [10] /share/apps/spack/envs/fgci-centos7-haswell/software/openmpi/3.1.4/bo27glk/lib/libopen-pal.so.40(opal_progress+0x2b)[0x2b3ec0ed03eb]
+[pe68:14302] [11] /share/apps/spack/envs/fgci-centos7-haswell/software/openmpi/3.1.4/bo27glk/lib/libmpi.so.40(+0x1b31e5)[0x2b3ebf8a31e5]
+[pe68:14302] [12] /share/apps/spack/envs/fgci-centos7-haswell/software/openmpi/3.1.4/bo27glk/lib/libmpi.so.40(mca_pml_ucx_del_procs+0x121)[0x2b3ebf8a3391]
+[pe68:14302] [13] /share/apps/spack/envs/fgci-centos7-haswell/software/openmpi/3.1.4/bo27glk/lib/libmpi.so.40(ompi_mpi_finalize+0x547)[0x2b3ebf764be7]
+[pe68:14302] [14] MPIs_MPI_2[0x400c55]
+[pe68:14302] [15] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x2b3ebfdbd555]
+[pe68:14302] [16] MPIs_MPI_2[0x400a49]
+[pe68:14302] *** End of error message ***
+srun: error: pe68: task 1: Aborted
+srun: launch/slurm: _step_signal: Terminating StepId=25641585.0
+slurmstepd: error: *** STEP 25641585.0 ON pe68 CANCELLED AT 2023-12-05T14:49:31 ***
+srun: error: pe68: tasks 0,2-3: Terminated
+srun: Force Terminated StepId=25641585.0
+
+real	0m17.805s
+user	0m0.016s
+sys	0m0.012s

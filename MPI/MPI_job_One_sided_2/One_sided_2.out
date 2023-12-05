@@ -1,0 +1,36 @@
+Rank 9 here sending 9 to 10
+I'm rank 9 and my neighbor on the left is 8
+Rank 14 here sending 14 to 15
+I'm rank 14 and my neighbor on the left is 13
+Rank 3 here sending 3 to 4
+I'm rank 3 and my neighbor on the left is 2
+Rank 5 here sending 5 to 6
+I'm rank 5 and my neighbor on the left is 4
+Rank 10 here sending 10 to 11
+I'm rank 10 and my neighbor on the left is 9
+Rank 8 here sending 8 to 9
+I'm rank 8 and my neighbor on the left is 7
+Rank 11 here sending 11 to 12
+I'm rank 11 and my neighbor on the left is 10
+Rank 0 here sending 0 to 1
+I'm rank 0 and my neighbor on the left is 15
+Rank 1 here sending 1 to 2
+I'm rank 1 and my neighbor on the left is 0
+Rank 2 here sending 2 to 3
+I'm rank 2 and my neighbor on the left is 1
+Rank 12 here sending 12 to 13
+I'm rank 12 and my neighbor on the left is 11
+Rank 13 here sending 13 to 14
+I'm rank 13 and my neighbor on the left is 12
+Rank 4 here sending 4 to 5
+I'm rank 4 and my neighbor on the left is 3
+Rank 7 here sending 7 to 8
+I'm rank 7 and my neighbor on the left is 6
+Rank 6 here sending 6 to 7
+I'm rank 6 and my neighbor on the left is 5
+Rank 15 here sending 15 to rank 0
+I'm rank 15 and my neighbor on the left is 14
+
+real	0m0.965s
+user	0m0.016s
+sys	0m0.011s
