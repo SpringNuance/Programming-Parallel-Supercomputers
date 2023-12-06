@@ -1,0 +1,9 @@
+Send 1024 bytes took 0.000014 seconds
+Send 10240 bytes took 0.000007 seconds
+Send 102400 bytes took 0.000027 seconds
+Send 1048576 bytes took 0.004976 seconds
+Send 10485760 bytes took 0.008693 seconds
+
+real	0m0.865s
+user	0m0.018s
+sys	0m0.009s

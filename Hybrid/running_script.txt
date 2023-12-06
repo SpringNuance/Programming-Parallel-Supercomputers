@@ -1,0 +1,23 @@
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/Hybrid_job_hello
+dos2unix job_hello.sh
+sbatch job_hello.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/Hybrid_job_MPIs_MPI_1
+dos2unix job_MPIs_MPI_1.sh
+sbatch job_MPIs_MPI_1.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/Hybrid_job_MPIs_MPI_2
+dos2unix job_MPIs_MPI_2.sh
+sbatch job_MPIs_MPI_2.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/Hybrid_job_MPIs_MPI_3
+dos2unix job_MPIs_MPI_3.sh
+sbatch job_MPIs_MPI_3.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/Hybrid_job_OMP_MPI_1
+dos2unix job_OMP_MPI_1.sh
+sbatch job_OMP_MPI_1.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/Hybrid_job_OMP_MPI_2
+dos2unix job_OMP_MPI_2.sh
+sbatch job_OMP_MPI_2.sh

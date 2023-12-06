@@ -1,0 +1,95 @@
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_Coll_1
+dos2unix job_Coll_1.sh
+sbatch job_Coll_1.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_Coll_1_fixed
+dos2unix job_Coll_1.sh
+sbatch job_Coll_1.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_Comm_1
+dos2unix job_Comm_1.sh
+sbatch job_Comm_1.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_Datat_1
+dos2unix job_Datat_1.sh
+sbatch job_Datat_1.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_hello_class
+dos2unix job_hello_class.sh
+sbatch job_hello_class.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_loctime
+dos2unix job_MPI_loctime.sh
+sbatch job_MPI_loctime.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_loctime2
+dos2unix job_MPI_loctime2.sh
+sbatch job_MPI_loctime2.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_SR_1
+dos2unix job_MPI_SR_1.sh
+sbatch job_MPI_SR_1.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_SR_1_fixed
+dos2unix job_MPI_SR_1.sh
+sbatch job_MPI_SR_1.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_SR_2
+dos2unix job_MPI_SR_2.sh
+sbatch job_MPI_SR_2.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_SR_2_fixed
+dos2unix job_MPI_SR_2.sh
+sbatch job_MPI_SR_2.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_SR_3_failed
+dos2unix job_MPI_SR_3.sh
+sbatch job_MPI_SR_3.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_SR_3_success
+dos2unix job_MPI_SR_3.sh
+sbatch job_MPI_SR_3.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_SR_4
+dos2unix job_MPI_SR_4.sh
+sbatch job_MPI_SR_4.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_SR_5
+dos2unix job_MPI_SR_5.sh
+sbatch job_MPI_SR_5.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_SR_6
+dos2unix job_MPI_SR_6.sh
+sbatch job_MPI_SR_6.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_SR_7
+dos2unix job_MPI_SR_7.sh
+sbatch job_MPI_SR_7.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_MPI_SR_8
+dos2unix job_MPI_SR_8.sh
+sbatch job_MPI_SR_8.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_One_sided_1
+dos2unix job_One_sided_1.sh
+sbatch job_One_sided_1.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_One_sided_2
+dos2unix job_One_sided_2.sh
+sbatch job_One_sided_2.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_One_sided_3
+dos2unix job_One_sided_3.sh
+sbatch job_One_sided_3.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_Split_1
+dos2unix job_Split_1.sh
+sbatch job_Split_1.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_Split_2
+dos2unix job_Split_2.sh
+sbatch job_Split_2.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/MPI_job_synchro
+dos2unix job_synchro.sh
+sbatch job_synchro.sh

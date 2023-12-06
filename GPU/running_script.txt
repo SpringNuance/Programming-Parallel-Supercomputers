@@ -1,0 +1,15 @@
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/GPU_job_BA
+dos2unix job_BA.sh
+sbatch job_BA.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/GPU_job_hello_class
+dos2unix job_hello_class.sh
+sbatch job_hello_class.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/GPU_job_vecAdd_CPU
+dos2unix job_vecAdd_CPU.sh
+sbatch job_vecAdd_CPU.sh
+
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/GPU_job_vecAdd_GPU
+dos2unix job_vecAdd_GPU.sh
+sbatch job_vecAdd_GPU.sh

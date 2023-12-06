@@ -1,0 +1,12 @@
+Number of MPI processes 8, Hello from rank: 0
+Number of devices 4 rank 0 sees
+Number of MPI processes 8, Hello from rank: 3
+Number of devices 4 rank 3 sees
+Number of MPI processes 8, Hello from rank: 1
+Number of devices 4 rank 1 sees
+Number of MPI processes 8, Hello from rank: 2
+Number of devices 4 rank 2 sees
+slurmstepd: error: *** JOB 25635339 ON gpu24 CANCELLED AT 2023-12-05T17:09:50 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+Job has already finished for job 25635339
+slurmstepd: error: --task-epilog failed status=256

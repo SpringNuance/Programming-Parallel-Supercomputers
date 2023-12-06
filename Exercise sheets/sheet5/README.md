@@ -12,6 +12,8 @@ overall details, you can even start from
 virtually every textbook in physics covers this type of equation to
 varying detail.
 
+$ \frac{\partial u}{\partial t} = \alpha \nabla^2 u $
+
 <img src="figs/Eq1.png" width="150" height="50">
 
 where **u(x, y, t)** is the temperature field that varies in space and

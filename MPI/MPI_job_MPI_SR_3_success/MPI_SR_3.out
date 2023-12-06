@@ -1,0 +1,9 @@
+Rank 0 here, hello!
+Sending 65536 integers to and receiving from rank 1
+Rank 0 done
+Rank 1 here, hello!
+Rank 1 done
+
+real	0m0.561s
+user	0m0.014s
+sys	0m0.008s
