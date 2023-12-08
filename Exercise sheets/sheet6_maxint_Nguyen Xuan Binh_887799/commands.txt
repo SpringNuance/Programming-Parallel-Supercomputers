@@ -1,0 +1,4 @@
+cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6
+./running_mpi.sh
+./running_multi.sh
+./running_single.sh

@@ -1,0 +1,8 @@
+Position:      0, Model: 1, Candidate: -1, Correct? No
+Failure at: Position:      0, Model: 1, Candidate: -1, Correct? No
+srun: error: gpu24: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=25785886.0
+slurmstepd: error: *** STEP 25785886.0 ON gpu24 CANCELLED AT 2023-12-08T12:33:13 ***
+srun: error: gpu24: tasks 1-3: Terminated
+srun: error: gpu25: tasks 4-7: Terminated
+srun: Force Terminated StepId=25785886.0
