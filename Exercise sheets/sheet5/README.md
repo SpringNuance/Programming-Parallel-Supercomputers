@@ -17,7 +17,7 @@ $ \frac{\partial u}{\partial t} = \alpha \nabla^2 u $
 <img src="figs/Eq1.png" width="150" height="50">
 
 where **u(x, y, t)** is the temperature field that varies in space and
-time, and α is thermal diffusivity constant. The two dimensional
+time, and $\alpha$ is thermal diffusivity constant. The two dimensional
 Laplacian can be discretized using finite differences that form a
 second order von Neuman stencil:
 

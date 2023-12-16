@@ -1,0 +1,73 @@
+Your configurations
+
+nprocx = 3, nprocy = 3
+domain_nx = 6, domain_ny = 6
+subdomain_nx = 2, subdomain_ny = 2
+subdomain_mx = 4, subdomain_my = 4
+dx = 1.047197, dy = 1.047197
+dt= 0.314159 
+
+
+Iteration 0
+Global total error: 5.725004
+Total communication time: 0.000721 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 1
+Global total error: 5.328478
+Total communication time: 0.000053 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 2
+Global total error: 5.351368
+Total communication time: 0.000028 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 3
+Global total error: 5.315886
+Total communication time: 0.000028 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 4
+Global total error: 5.467592
+Total communication time: 0.000029 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 5
+Global total error: 6.112571
+Total communication time: 0.000029 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 6
+Global total error: 5.820673
+Total communication time: 0.000031 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 7
+Global total error: 5.989224
+Total communication time: 0.000022 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 8
+Global total error: 6.767714
+Total communication time: 0.000029 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 9
+Global total error: 6.519992
+Total communication time: 0.000026 seconds
+Total computation time: 0.000000 seconds
+
+Rank 0, ipx = 0, ipy = 0
+Rank 1, ipx = 1, ipy = 0
+Rank 5, ipx = 2, ipy = 1
+Rank 3, ipx = 0, ipy = 1
+Rank 2, ipx = 2, ipy = 0
+Rank 7, ipx = 1, ipy = 2
+Rank 8, ipx = 2, ipy = 2
+Rank 4, ipx = 1, ipy = 1
+Rank 6, ipx = 0, ipy = 2
+
+real	0m1.693s
+user	0m0.029s
+sys	0m0.012s

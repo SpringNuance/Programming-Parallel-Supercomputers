@@ -7,11 +7,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/CMakeLists.txt"
+  "/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/CMakeLists.txt"
   "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeCUDACompiler.cmake"
   "CMakeFiles/3.26.3/CMakeSystem.cmake"
-  "/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/CMakeLists.txt"
+  "/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/CMakeLists.txt"
   "/share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cmake-3.26.3-hvnw6he/share/cmake-3.26/Modules/CMakeCInformation.cmake"
   "/share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cmake-3.26.3-hvnw6he/share/cmake-3.26/Modules/CMakeCUDAInformation.cmake"
   "/share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cmake-3.26.3-hvnw6he/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"

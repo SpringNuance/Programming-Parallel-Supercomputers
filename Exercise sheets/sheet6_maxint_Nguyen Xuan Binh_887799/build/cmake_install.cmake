@@ -1,4 +1,4 @@
-# Install script for directory: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6
+# Install script for directory: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src/cmake_install.cmake")
+  include("/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

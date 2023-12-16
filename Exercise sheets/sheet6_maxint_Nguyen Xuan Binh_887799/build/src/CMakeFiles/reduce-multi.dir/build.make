@@ -53,10 +53,10 @@ RM = /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-h
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6
+CMAKE_SOURCE_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build
+CMAKE_BINARY_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/reduce-multi.dir/depend.make
@@ -70,10 +70,10 @@ include src/CMakeFiles/reduce-multi.dir/progress.make
 include src/CMakeFiles/reduce-multi.dir/flags.make
 
 src/CMakeFiles/reduce-multi.dir/main.cu.o: src/CMakeFiles/reduce-multi.dir/flags.make
-src/CMakeFiles/reduce-multi.dir/main.cu.o: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/main.cu
+src/CMakeFiles/reduce-multi.dir/main.cu.o: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/main.cu
 src/CMakeFiles/reduce-multi.dir/main.cu.o: src/CMakeFiles/reduce-multi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object src/CMakeFiles/reduce-multi.dir/main.cu.o"
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src && /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cuda-11.8.0-gff3eyf/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT src/CMakeFiles/reduce-multi.dir/main.cu.o -MF CMakeFiles/reduce-multi.dir/main.cu.o.d -x cu -c /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/main.cu -o CMakeFiles/reduce-multi.dir/main.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object src/CMakeFiles/reduce-multi.dir/main.cu.o"
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src && /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cuda-11.8.0-gff3eyf/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT src/CMakeFiles/reduce-multi.dir/main.cu.o -MF CMakeFiles/reduce-multi.dir/main.cu.o.d -x cu -c /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/main.cu -o CMakeFiles/reduce-multi.dir/main.cu.o
 
 src/CMakeFiles/reduce-multi.dir/main.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/reduce-multi.dir/main.cu.i"
@@ -84,10 +84,10 @@ src/CMakeFiles/reduce-multi.dir/main.cu.s: cmake_force
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_ASSEMBLY_SOURCE
 
 src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.o: src/CMakeFiles/reduce-multi.dir/flags.make
-src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.o: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/reduce-multi.cu
+src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.o: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/reduce-multi.cu
 src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.o: src/CMakeFiles/reduce-multi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.o"
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src && /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cuda-11.8.0-gff3eyf/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.o -MF CMakeFiles/reduce-multi.dir/reduce-multi.cu.o.d -x cu -c /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/reduce-multi.cu -o CMakeFiles/reduce-multi.dir/reduce-multi.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.o"
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src && /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cuda-11.8.0-gff3eyf/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.o -MF CMakeFiles/reduce-multi.dir/reduce-multi.cu.o.d -x cu -c /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/reduce-multi.cu -o CMakeFiles/reduce-multi.dir/reduce-multi.cu.o
 
 src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/reduce-multi.dir/reduce-multi.cu.i"
@@ -111,18 +111,18 @@ reduce-multi: src/CMakeFiles/reduce-multi.dir/build.make
 reduce-multi: src/CMakeFiles/reduce-multi.dir/linkLibs.rsp
 reduce-multi: src/CMakeFiles/reduce-multi.dir/objects1.rsp
 reduce-multi: src/CMakeFiles/reduce-multi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CUDA executable ../reduce-multi"
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reduce-multi.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CUDA executable ../reduce-multi"
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reduce-multi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/reduce-multi.dir/build: reduce-multi
 .PHONY : src/CMakeFiles/reduce-multi.dir/build
 
 src/CMakeFiles/reduce-multi.dir/clean:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src && $(CMAKE_COMMAND) -P CMakeFiles/reduce-multi.dir/cmake_clean.cmake
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src && $(CMAKE_COMMAND) -P CMakeFiles/reduce-multi.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/reduce-multi.dir/clean
 
 src/CMakeFiles/reduce-multi.dir/depend:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6 /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src/CMakeFiles/reduce-multi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src/CMakeFiles/reduce-multi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/reduce-multi.dir/depend
 

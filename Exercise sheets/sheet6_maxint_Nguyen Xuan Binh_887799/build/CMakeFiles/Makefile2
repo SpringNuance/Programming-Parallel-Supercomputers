@@ -54,10 +54,10 @@ RM = /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-h
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6
+CMAKE_SOURCE_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build
+CMAKE_BINARY_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -100,14 +100,14 @@ src/clean: src/CMakeFiles/reduce-mpi.dir/clean
 src/CMakeFiles/reduce-single.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles --progress-num=7,8,9 "Built target reduce-single"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles --progress-num=7,8,9 "Built target reduce-single"
 .PHONY : src/CMakeFiles/reduce-single.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/reduce-single.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/reduce-single.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/reduce-single.dir/rule
 
 # Convenience name for target.
@@ -126,14 +126,14 @@ src/CMakeFiles/reduce-single.dir/clean:
 src/CMakeFiles/reduce-multi.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles --progress-num=4,5,6 "Built target reduce-multi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles --progress-num=4,5,6 "Built target reduce-multi"
 .PHONY : src/CMakeFiles/reduce-multi.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/reduce-multi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/reduce-multi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/reduce-multi.dir/rule
 
 # Convenience name for target.
@@ -152,14 +152,14 @@ src/CMakeFiles/reduce-multi.dir/clean:
 src/CMakeFiles/reduce-mpi.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles --progress-num=1,2,3 "Built target reduce-mpi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles --progress-num=1,2,3 "Built target reduce-mpi"
 .PHONY : src/CMakeFiles/reduce-mpi.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/reduce-mpi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/reduce-mpi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/reduce-mpi.dir/rule
 
 # Convenience name for target.

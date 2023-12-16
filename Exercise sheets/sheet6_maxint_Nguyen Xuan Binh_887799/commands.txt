@@ -1,4 +1,13 @@
 cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6
+
+Create the archive with the command zip 887799.zip -r src/ 
+
+(note the -r flag: the archive must contain the src directory)
+
+chmod +x running_mpi.sh
+chmod +x running_multi.sh
+chmod +x running_single.sh
+
 ./running_mpi.sh
 ./running_multi.sh
 ./running_single.sh

@@ -1,0 +1,67 @@
+Your configurations
+
+nprocx = 2, nprocy = 2
+Rank 0, ipx = 0, ipy = 0
+domain_nx = 4, domain_ny = 4
+subdomain_nx = 2, subdomain_ny = 2
+subdomain_mx = 4, subdomain_my = 4
+dx = 1.570795, dy = 1.570795
+dt= 0.471239 
+
+
+Iteration 0
+Global total error: 2.838478
+Total communication time: 0.000467 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 1
+Global total error: 2.279956
+Total communication time: 0.000035 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 2
+Global total error: 2.504887
+Total communication time: 0.000031 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 3
+Global total error: 2.654073
+Total communication time: 0.000027 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 4
+Global total error: 2.700539
+Total communication time: 0.000025 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 5
+Global total error: 2.923237
+Total communication time: 0.000021 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 6
+Global total error: 3.007751
+Total communication time: 0.000023 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 7
+Global total error: 3.049272
+Total communication time: 0.000029 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 8
+Global total error: 3.189360
+Total communication time: 0.000022 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 9
+Global total error: 3.471519
+Total communication time: 0.000028 seconds
+Total computation time: 0.000000 seconds
+Rank 2, ipx = 0, ipy = 1
+Rank 3, ipx = 1, ipy = 1
+Rank 1, ipx = 1, ipy = 0
+
+real	0m0.891s
+user	0m0.015s
+sys	0m0.015s

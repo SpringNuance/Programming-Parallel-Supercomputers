@@ -1,0 +1,8 @@
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet4/build/CMakeFiles/edit_cache.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet4/build/CMakeFiles/rebuild_cache.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet4/build/src/CMakeFiles/quicksort-serial.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet4/build/src/CMakeFiles/quicksort-gpu.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet4/build/src/CMakeFiles/quicksort-distributed.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet4/build/src/CMakeFiles/quicksort-distributed-gpu.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet4/build/src/CMakeFiles/edit_cache.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet4/build/src/CMakeFiles/rebuild_cache.dir

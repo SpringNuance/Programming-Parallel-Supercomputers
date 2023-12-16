@@ -57,10 +57,10 @@ RM = /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-h
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6
+CMAKE_SOURCE_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build
+CMAKE_BINARY_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src//CMakeFiles/progress.marks
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles 0
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src//CMakeFiles/progress.marks
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/reduce-single.dir/rule:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/reduce-single.dir/rule
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/reduce-single.dir/rule
 .PHONY : src/CMakeFiles/reduce-single.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ reduce-single: src/CMakeFiles/reduce-single.dir/rule
 
 # fast build rule for target.
 reduce-single/fast:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/build
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/build
 .PHONY : reduce-single/fast
 
 # Convenience name for target.
 src/CMakeFiles/reduce-multi.dir/rule:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/reduce-multi.dir/rule
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/reduce-multi.dir/rule
 .PHONY : src/CMakeFiles/reduce-multi.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ reduce-multi: src/CMakeFiles/reduce-multi.dir/rule
 
 # fast build rule for target.
 reduce-multi/fast:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/build
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/build
 .PHONY : reduce-multi/fast
 
 # Convenience name for target.
 src/CMakeFiles/reduce-mpi.dir/rule:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/reduce-mpi.dir/rule
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/reduce-mpi.dir/rule
 .PHONY : src/CMakeFiles/reduce-mpi.dir/rule
 
 # Convenience name for target.
@@ -155,7 +155,7 @@ reduce-mpi: src/CMakeFiles/reduce-mpi.dir/rule
 
 # fast build rule for target.
 reduce-mpi/fast:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/build
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/build
 .PHONY : reduce-mpi/fast
 
 main.o: main.cu.o
@@ -163,9 +163,9 @@ main.o: main.cu.o
 
 # target to build an object file
 main.cu.o:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/main.cu.o
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/main.cu.o
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/main.cu.o
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/main.cu.o
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/main.cu.o
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/main.cu.o
 .PHONY : main.cu.o
 
 main.i: main.cu.i
@@ -173,9 +173,9 @@ main.i: main.cu.i
 
 # target to preprocess a source file
 main.cu.i:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/main.cu.i
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/main.cu.i
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/main.cu.i
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/main.cu.i
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/main.cu.i
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/main.cu.i
 .PHONY : main.cu.i
 
 main.s: main.cu.s
@@ -183,9 +183,9 @@ main.s: main.cu.s
 
 # target to generate assembly for a file
 main.cu.s:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/main.cu.s
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/main.cu.s
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/main.cu.s
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/main.cu.s
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/main.cu.s
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/main.cu.s
 .PHONY : main.cu.s
 
 reduce-mpi.o: reduce-mpi.cu.o
@@ -193,7 +193,7 @@ reduce-mpi.o: reduce-mpi.cu.o
 
 # target to build an object file
 reduce-mpi.cu.o:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/reduce-mpi.cu.o
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/reduce-mpi.cu.o
 .PHONY : reduce-mpi.cu.o
 
 reduce-mpi.i: reduce-mpi.cu.i
@@ -201,7 +201,7 @@ reduce-mpi.i: reduce-mpi.cu.i
 
 # target to preprocess a source file
 reduce-mpi.cu.i:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/reduce-mpi.cu.i
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/reduce-mpi.cu.i
 .PHONY : reduce-mpi.cu.i
 
 reduce-mpi.s: reduce-mpi.cu.s
@@ -209,7 +209,7 @@ reduce-mpi.s: reduce-mpi.cu.s
 
 # target to generate assembly for a file
 reduce-mpi.cu.s:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/reduce-mpi.cu.s
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-mpi.dir/build.make src/CMakeFiles/reduce-mpi.dir/reduce-mpi.cu.s
 .PHONY : reduce-mpi.cu.s
 
 reduce-multi.o: reduce-multi.cu.o
@@ -217,7 +217,7 @@ reduce-multi.o: reduce-multi.cu.o
 
 # target to build an object file
 reduce-multi.cu.o:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.o
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.o
 .PHONY : reduce-multi.cu.o
 
 reduce-multi.i: reduce-multi.cu.i
@@ -225,7 +225,7 @@ reduce-multi.i: reduce-multi.cu.i
 
 # target to preprocess a source file
 reduce-multi.cu.i:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.i
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.i
 .PHONY : reduce-multi.cu.i
 
 reduce-multi.s: reduce-multi.cu.s
@@ -233,7 +233,7 @@ reduce-multi.s: reduce-multi.cu.s
 
 # target to generate assembly for a file
 reduce-multi.cu.s:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.s
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-multi.dir/build.make src/CMakeFiles/reduce-multi.dir/reduce-multi.cu.s
 .PHONY : reduce-multi.cu.s
 
 reduce-single.o: reduce-single.cu.o
@@ -241,7 +241,7 @@ reduce-single.o: reduce-single.cu.o
 
 # target to build an object file
 reduce-single.cu.o:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/reduce-single.cu.o
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/reduce-single.cu.o
 .PHONY : reduce-single.cu.o
 
 reduce-single.i: reduce-single.cu.i
@@ -249,7 +249,7 @@ reduce-single.i: reduce-single.cu.i
 
 # target to preprocess a source file
 reduce-single.cu.i:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/reduce-single.cu.i
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/reduce-single.cu.i
 .PHONY : reduce-single.cu.i
 
 reduce-single.s: reduce-single.cu.s
@@ -257,7 +257,7 @@ reduce-single.s: reduce-single.cu.s
 
 # target to generate assembly for a file
 reduce-single.cu.s:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/reduce-single.cu.s
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/reduce-single.dir/build.make src/CMakeFiles/reduce-single.dir/reduce-single.cu.s
 .PHONY : reduce-single.cu.s
 
 # Help Target
@@ -294,6 +294,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

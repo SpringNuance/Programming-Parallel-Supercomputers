@@ -51,7 +51,7 @@ int reduce(const int* arr, const size_t count) {
         cudaMalloc(&d_partial_max[i], dcount * sizeof(int));  // Enough memory for all partial results
     }
 
-    // Perform reduction on each GPU
+    // Reduction on each GPU
     int threadsPerBlock = 256;
     for (int i = 0; i < num_devices; ++i) {
         cudaSetDevice(i);

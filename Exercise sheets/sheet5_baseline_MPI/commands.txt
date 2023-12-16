@@ -1,0 +1,3 @@
+First, run
+
+./make_heat_mpi.sh

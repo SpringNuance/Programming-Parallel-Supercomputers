@@ -8,6 +8,7 @@ int main(int argc, char** argv) {
 
   int prov,req=MPI_THREAD_MULTIPLE;
   /* Initialize the MPI execution environment */
+  // parallel execution start with MPI
   MPI_Init_thread(NULL, NULL,req,&prov);
 
   if( prov < req ) {
@@ -34,14 +35,16 @@ int main(int argc, char** argv) {
   printf("Hello class from node %s, rank %d out of %d MPI processes\n",
 	 processor_name, world_rank, world_size);
 
+  //  parallel execution with OpenMP start
   #if defined(_OPENMP)
   #pragma omp parallel
-    printf("Hello class from OMP thread %d.\n", omp_get_thread_num());
+    printf("Hello class from OMP thread %d.\n", omp_get_thread_num()); //  parallel execution with OpenMP end
   #else
     printf("Hello class!.\n");
   #endif
 
   /* Finalize the MPI environment. */
+  // parallel execution end with MPI
   MPI_Finalize();
 }
 

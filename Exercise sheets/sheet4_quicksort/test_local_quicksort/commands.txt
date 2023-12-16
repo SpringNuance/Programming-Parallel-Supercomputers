@@ -1,0 +1,3 @@
+g++ -o quicksort quicksort.cpp
+quicksort.exe
+

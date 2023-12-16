@@ -1,0 +1,67 @@
+Rank 3, ipx = 1, ipy = 1
+Rank 1, ipx = 1, ipy = 0
+Rank 2, ipx = 0, ipy = 1
+Your configurations
+
+nprocx = 2, nprocy = 2
+Rank 0, ipx = 0, ipy = 0
+domain_nx = 50, domain_ny = 50
+subdomain_nx = 25, subdomain_ny = 25
+subdomain_mx = 27, subdomain_my = 27
+dx = 0.125664, dy = 0.125664
+dt= 0.037699 
+
+
+Iteration 0
+Global total error: nan
+Total communication time: 0.000784 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 1
+Global total error: nan
+Total communication time: 0.000051 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 2
+Global total error: nan
+Total communication time: 0.000052 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 3
+Global total error: nan
+Total communication time: 0.000044 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 4
+Global total error: nan
+Total communication time: 0.000039 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 5
+Global total error: nan
+Total communication time: 0.000038 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 6
+Global total error: nan
+Total communication time: 0.000038 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 7
+Global total error: nan
+Total communication time: 0.000048 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 8
+Global total error: nan
+Total communication time: 0.000046 seconds
+Total computation time: 0.000000 seconds
+
+Iteration 9
+Global total error: nan
+Total communication time: 0.000043 seconds
+Total computation time: 0.000000 seconds
+
+real	0m0.862s
+user	0m0.018s
+sys	0m0.012s

@@ -1,0 +1,1 @@
+ "/share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/openmpi-4.1.5-3qsfx7s/lib/libmpi.so" -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

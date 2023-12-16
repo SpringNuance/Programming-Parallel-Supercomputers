@@ -1,0 +1,16 @@
+cd "/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet4"
+
+Create the archive with the command zip 887799.zip -r src/ 
+
+(note the -r flag: the archive must contain the src directory)
+
+chmod +x running_qs_serial.sh
+chmod +x running_qs_dist.sh
+chmod +x running_qs_gpu.sh
+chmod +x running_qs_dist_gpu.sh
+
+Running the quicksort algorithm
+./running_qs_serial.sh
+./running_qs_dist.sh
+./running_qs_gpu.sh
+./running_qs_dist_gpu.sh

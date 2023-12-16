@@ -53,10 +53,10 @@ RM = /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-h
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6
+CMAKE_SOURCE_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build
+CMAKE_BINARY_DIR = /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/reduce-single.dir/depend.make
@@ -70,10 +70,10 @@ include src/CMakeFiles/reduce-single.dir/progress.make
 include src/CMakeFiles/reduce-single.dir/flags.make
 
 src/CMakeFiles/reduce-single.dir/main.cu.o: src/CMakeFiles/reduce-single.dir/flags.make
-src/CMakeFiles/reduce-single.dir/main.cu.o: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/main.cu
+src/CMakeFiles/reduce-single.dir/main.cu.o: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/main.cu
 src/CMakeFiles/reduce-single.dir/main.cu.o: src/CMakeFiles/reduce-single.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object src/CMakeFiles/reduce-single.dir/main.cu.o"
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src && /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cuda-11.8.0-gff3eyf/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT src/CMakeFiles/reduce-single.dir/main.cu.o -MF CMakeFiles/reduce-single.dir/main.cu.o.d -x cu -c /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/main.cu -o CMakeFiles/reduce-single.dir/main.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object src/CMakeFiles/reduce-single.dir/main.cu.o"
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src && /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cuda-11.8.0-gff3eyf/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT src/CMakeFiles/reduce-single.dir/main.cu.o -MF CMakeFiles/reduce-single.dir/main.cu.o.d -x cu -c /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/main.cu -o CMakeFiles/reduce-single.dir/main.cu.o
 
 src/CMakeFiles/reduce-single.dir/main.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/reduce-single.dir/main.cu.i"
@@ -84,10 +84,10 @@ src/CMakeFiles/reduce-single.dir/main.cu.s: cmake_force
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_ASSEMBLY_SOURCE
 
 src/CMakeFiles/reduce-single.dir/reduce-single.cu.o: src/CMakeFiles/reduce-single.dir/flags.make
-src/CMakeFiles/reduce-single.dir/reduce-single.cu.o: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/reduce-single.cu
+src/CMakeFiles/reduce-single.dir/reduce-single.cu.o: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/reduce-single.cu
 src/CMakeFiles/reduce-single.dir/reduce-single.cu.o: src/CMakeFiles/reduce-single.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object src/CMakeFiles/reduce-single.dir/reduce-single.cu.o"
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src && /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cuda-11.8.0-gff3eyf/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT src/CMakeFiles/reduce-single.dir/reduce-single.cu.o -MF CMakeFiles/reduce-single.dir/reduce-single.cu.o.d -x cu -c /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/reduce-single.cu -o CMakeFiles/reduce-single.dir/reduce-single.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object src/CMakeFiles/reduce-single.dir/reduce-single.cu.o"
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src && /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cuda-11.8.0-gff3eyf/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT src/CMakeFiles/reduce-single.dir/reduce-single.cu.o -MF CMakeFiles/reduce-single.dir/reduce-single.cu.o.d -x cu -c /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/reduce-single.cu -o CMakeFiles/reduce-single.dir/reduce-single.cu.o
 
 src/CMakeFiles/reduce-single.dir/reduce-single.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/reduce-single.dir/reduce-single.cu.i"
@@ -111,18 +111,18 @@ reduce-single: src/CMakeFiles/reduce-single.dir/build.make
 reduce-single: src/CMakeFiles/reduce-single.dir/linkLibs.rsp
 reduce-single: src/CMakeFiles/reduce-single.dir/objects1.rsp
 reduce-single: src/CMakeFiles/reduce-single.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CUDA executable ../reduce-single"
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reduce-single.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CUDA executable ../reduce-single"
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reduce-single.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/reduce-single.dir/build: reduce-single
 .PHONY : src/CMakeFiles/reduce-single.dir/build
 
 src/CMakeFiles/reduce-single.dir/clean:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src && $(CMAKE_COMMAND) -P CMakeFiles/reduce-single.dir/cmake_clean.cmake
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src && $(CMAKE_COMMAND) -P CMakeFiles/reduce-single.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/reduce-single.dir/clean
 
 src/CMakeFiles/reduce-single.dir/depend:
-	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6 /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src/CMakeFiles/reduce-single.dir/DependInfo.cmake --color=$(COLOR)
+	cd /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src/CMakeFiles/reduce-single.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/reduce-single.dir/depend
 

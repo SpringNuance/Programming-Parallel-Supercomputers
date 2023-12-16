@@ -35,12 +35,10 @@ __global__ void reduce_kernel(int* arr, const size_t count) {
 
 // The host function for calling the reduction kernel
 
-
 int reduce(const int* arr, const size_t initial_count) {
     int *d_arr, *d_partial_max;
     size_t size = initial_count * sizeof(int);
 
-    // Allocate memory on the GPU and copy data from host to device
     cudaMalloc(&d_arr, size);
     cudaMemcpy(d_arr, arr, size, cudaMemcpyHostToDevice);
 
@@ -69,7 +67,7 @@ int reduce(const int* arr, const size_t initial_count) {
     int global_max;
     cudaMemcpy(&global_max, d_arr, sizeof(int), cudaMemcpyDeviceToHost);
 
-    // Cleanup
+    // Clean up
     cudaFree(d_arr);
     cudaFree(d_partial_max);
 

@@ -1,4 +1,4 @@
-src/CMakeFiles/reduce-mpi.dir/main.cu.o : /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/main.cu \
+src/CMakeFiles/reduce-mpi.dir/main.cu.o : /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/main.cu \
     /usr/include/stdc-predef.h \
     /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cuda-11.8.0-gff3eyf/bin/../targets/x86_64-linux/include/cuda_runtime.h \
     /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/cuda-11.8.0-gff3eyf/bin/../targets/x86_64-linux/include/crt/host_config.h \
@@ -127,6 +127,6 @@ src/CMakeFiles/reduce-mpi.dir/main.cu.o : /scratch/courses/programming_parallel_
     /share/apps/scibuilder-spack/aalto-centos7/2023-01-compilers/software/linux-centos7-haswell/gcc-4.8.5/gcc-11.3.0-7prhbnn/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0/initializer_list \
     /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/openmpi-4.1.5-3qsfx7s/include/mpi.h \
     /share/apps/scibuilder-spack/aalto-centos7/2023-01/software/linux-centos7-haswell/gcc-11.3.0/openmpi-4.1.5-3qsfx7s/include/mpi_portable_platform.h \
-    /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/errchk.h \
+    /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/errchk.h \
     /share/apps/scibuilder-spack/aalto-centos7/2023-01-compilers/software/linux-centos7-haswell/gcc-4.8.5/gcc-11.3.0-7prhbnn/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include/stdbool.h \
-    /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src/reduce.cuh
+    /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src/reduce.cuh

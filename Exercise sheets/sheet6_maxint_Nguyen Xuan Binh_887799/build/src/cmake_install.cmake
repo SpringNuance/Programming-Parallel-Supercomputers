@@ -1,4 +1,4 @@
-# Install script for directory: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/src
+# Install script for directory: /scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

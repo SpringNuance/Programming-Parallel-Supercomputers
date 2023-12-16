@@ -5,6 +5,7 @@
 #SBATCH --ntasks-per-node 4
 #SBATCH --nodes 2
 #SBATCH --output mpi_output.txt
+#SBATCH --partition gpushort
 ####SBATCH --partition courses-gpu
 ####SBATCH --account courses
 

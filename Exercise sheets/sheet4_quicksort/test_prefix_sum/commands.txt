@@ -1,0 +1,4 @@
+g++ -fopenmp -o prefix_sum prefix_sum.cpp
+./prefix_sum
+
+

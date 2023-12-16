@@ -1,7 +1,7 @@
-/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles/edit_cache.dir
-/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/CMakeFiles/rebuild_cache.dir
-/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src/CMakeFiles/reduce-single.dir
-/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src/CMakeFiles/reduce-multi.dir
-/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src/CMakeFiles/reduce-mpi.dir
-/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src/CMakeFiles/edit_cache.dir
-/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6/build/src/CMakeFiles/rebuild_cache.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles/edit_cache.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/CMakeFiles/rebuild_cache.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src/CMakeFiles/reduce-single.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src/CMakeFiles/reduce-multi.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src/CMakeFiles/reduce-mpi.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src/CMakeFiles/edit_cache.dir
+/scratch/courses/programming_parallel_supercomputers_2023/nguyenb5/sheet6_maxint/build/src/CMakeFiles/rebuild_cache.dir
