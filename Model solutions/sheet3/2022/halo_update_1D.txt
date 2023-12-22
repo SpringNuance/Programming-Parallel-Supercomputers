@@ -1,0 +1,22 @@
+Halo communication by Send/Recv (blocking/nonblocking)
+------------------------------------------------------
+
+see code in halo_update_1D.c, plots in halo1D_blocking_p2p.pdf, halo1D_nonblocking_p2p.pdf;
+execution time per iteration from averaging over 100 iterations
+
+- behavior communication-bound for small arrays, compute-bound for large arrays
+  changeover depends on processor number p
+
+- for p>=32, only slight dependence of execution time on p when communication-bound (n<~1e6)
+
+- as amount of communicated data (determined completely by stencil order) doesn’t depend on array size,
+  execution time is roughly independent of n when communication-bound
+
+- behaviour special for p=4,8,16: code runs for small arrays (n<~1024) up to 100 times faster than for p>16;
+  reason: communication was intra-node, exploiting shared memory;
+  accordingly, changeover to compute-bound already at n~1e3,1e4,4e4, instead of n>~1e6 for bigger p
+
+- at big n (2^23) strong scaling close to ideal for p <~16 
+
+- nonblocking communication with concurrency of communication and computation 
+  slightly faster than blocking when communication-bound for p=32

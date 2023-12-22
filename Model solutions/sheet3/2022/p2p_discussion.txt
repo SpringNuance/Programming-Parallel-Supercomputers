@@ -1,0 +1,26 @@
+In general:
+  - no systematic difference between blocking and non-blocking versions of otherwise similar 
+    send routines to be expected as MPI_Wait follows immediately after Isend
+  - for large message sizes small differences between Send, Isend, Ssend, Issend
+    because Send behaves like Ssend, Isend like Issend
+  - buffered sends systematically slower for message sizes > 1e3 (1e4) on one node (two nodes)
+  - for small message sizes, communication time becomes independent of it as 
+    overhead dominates
+  - time as function of message size grows faster than any power law 
+  - standard deviation of communication time systenatically bigger for buffered send 
+    (by >~ one order of magnitude) compared to Send/Recv from 1e3 (3e4) on;
+    could indicate that bandwidth for large messages depends more strongly on the (random)
+    network load than for smaller messages
+
+Send and receive calls on different nodes (inter-node):
+  - nonblocking Send systematically fastest from message size n=3e2 on, 
+    from 3e3 on practically equally fast as blocking Send
+  - blocking buffered 2nd fastest until n=3e3, then both synchronous sends; 
+    unsystematic differences between others for n<3e3
+  - buffered send/recv systematically slowest from n=1e4 on,
+    by factor ~4 slower for longest arrays
+
+Comparison intra-node vs. inter-node:
+  - intra-node 5 to >~ 10 times faster for array lengths n <~ 3e3
+    difference reduces to ~0 for longest arrays in all flavors
+  
